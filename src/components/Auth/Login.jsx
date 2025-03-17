@@ -17,6 +17,15 @@ const Login = ({handleLogin}) => {
         <h1 className='text-green-600 italic font-bold text-2xl mb-6 px-3'>
                     Welcome to (EMS) Employee Management System!
                 </h1>
+        <p className='text-white text-sm mt-2 max-w-md text-center'>
+                    Manage employees efficiently with our intuitive platform. Track records, assign roles, and streamline workflow like never before.
+                {showMore && (
+                    <span>
+                        <br />Admin Dashboard - A powerful space for managing employees, assigning tasks, and tracking progress. 📊  
+                        <br />Employee Dashboard - Stay updated with assigned tasks, deadlines, and performance reports. ⏳  
+                        <br />Task Management-Assign, update, and keep records of tasks seamlessly. 
+                        <br />Secure Login & Role-Based Access- Ensuring data security and proper authorization. 🔒  
+                    </span>
         <div className='border-2 rounded-xl border-emerald-600 p-20'>
             <form 
             onSubmit={(e)=>{
