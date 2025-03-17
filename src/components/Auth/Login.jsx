@@ -13,7 +13,10 @@ const Login = ({handleLogin}) => {
     }
 
   return (
-    <div className='flex h-screen w-screen items-center justify-center'>
+    <div className='flex flex-col  h-screen w-screen items-center justify-center'>
+        <h1 className='text-green-600 italic font-bold text-2xl mb-6 px-3'>
+                    Welcome to (EMS) Employee Management System!
+                </h1>
         <div className='border-2 rounded-xl border-emerald-600 p-20'>
             <form 
             onSubmit={(e)=>{
