@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+*{
+  color:#fff;
+}
+body{
+  background-color: black;
+}
+#tasklist::-webkit-scrollbar{
+   display:none;
+}
+#tasklist::-webkit-scrollbar-thumb{
+  background-color: rgb(143, 143, 143);
+  border-radius: 50px;
+}
